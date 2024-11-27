@@ -1,0 +1,10 @@
+name: SFakeLags
+version: '1.0'
+main: org.siynes.sfakelags.SFakeLags
+api-version: '1.16'
+commands:
+  cheatlags:
+    permission: trolling.admin
+    usage: /cheatlags <enable|disable> [player]
+depend:
+  - packetevents
